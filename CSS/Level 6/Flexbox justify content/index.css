@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#box{
+    height: 75px;
+    width: 75px;
+    margin: 5px;
+    border: 3px solid black;
+}
+#heading{
+    text-align: center;
+}
+#container{
+    height: 500px;
+    width: 600px;
+    margin: 20px;
+    padding: 10px;
+    background-color:darkgray;
+
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    background-color:burlywood;
+}
+.box2{
+    background-color: cadetblue;
+}
+.box3{
+    background-color: chocolate;
+}
+.box4{
+    background-color: darkgoldenrod;
+}

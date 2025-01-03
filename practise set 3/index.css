@@ -1,0 +1,17 @@
+
+*{
+    padding: 0%;
+    margin:0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#git h1 {
+    background-color: cadetblue;
+    text-align: center;
+    text-transform: capitalize;
+}
+#inner {
+   font-size: 10px;
+}
+#outer {
+    font-size: 25px;
+}

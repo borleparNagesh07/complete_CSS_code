@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform: Scale</title>
+    <style>
+        #box{
+            height: 100px;
+            width: 100px;
+            margin: 25px;
+            padding: 5px;
+            border: 3px solid black;
+            border-radius: 5px;
+            
+            display: flex;
+            align-items: centerScale;
+            transition: all 2s ease-in-out 0s;
+        }
+        .css_box1{background-color: chocolate;}
+        .css_box1:hover{transform: Scale(2);}
+        .css_box2{background-color: cornflowerblue;}
+        .css_box2:hover{transform: Scale(4);}
+        .css_box3{background-color: darkgoldenrod;}
+        .css_box3:hover{transform: Scalex(2);}
+        .css_box4{background-color: yellow;}
+        .css_box4:hover{transform: Scaley(2);}
+    </style>
+</head>
+<body>
+    <div id="box" class="css_box1">Scale 45deg</div>
+    <div id="box" class="css_box2">Scale 180deg</div>
+    <div id="box" class="css_box3">Scale x45deg</div>
+    <div id="box" class="css_box4">Scale y45deg</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+#pad{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+#button1{
+    height: 70px;
+    width: 70px;
+    padding: 10px 15px;
+    margin: 100px;
+    border: 2px dotted red;
+    border-radius: 46px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    padding: 3px;
+    border: 2px dotted red;
+    background-color: cadetblue;
+}
